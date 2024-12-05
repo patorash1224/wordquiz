@@ -1,0 +1,56 @@
+body {
+    background-color: #F5F0CD;
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#start {
+    text-align: center;
+}
+
+span {
+    font-size: 1.2rem;
+}
+
+#question {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#ans {
+    font-size: 1.5rem;
+    color: green;
+    margin-top: 20px;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.d-grid .btn {
+    margin-top: 10px;
+}
+
+.row.align-items-end {
+    padding-top: 20px;
+}

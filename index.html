@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中学生英単語ランダムクイズ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h1>中学生英単語ランダムクイズ</h1>
+    <p>中学生で習う英単語からランダムにクイズを出題します。四つの選択肢から正解だと思う日本語訳を選んでください。</p>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button id="start" class="btn btn-primary">クイズを生成！</button>
+    </div>
+    <div class="container text-center">
+        <div class="row align-items-end mt-4">
+            <div class="col-3">
+                <h5>スコア</h5>
+                <span id="total">0</span>問中<span id="correct">0</span>問正解!
+            </div>
+            <div class="col-6">
+                <h2 id="question">ここに英単語が表示されます</h2>
+                <div class="d-grid gap-2">
+                    <button id="choice0" class="btn btn-info">選択肢1</button>
+                    <button id="choice1" class="btn btn-info">選択肢2</button>
+                    <button id="choice2" class="btn btn-info">選択肢3</button>
+                    <button id="choice3" class="btn btn-info">選択肢4</button>
+                </div>
+            </div>
+            <div class="col-3">
+                <h5>正解</h5>
+                <h2 id="ans">答えはここに表示されます</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
