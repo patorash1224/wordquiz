@@ -41,7 +41,7 @@ startButton.addEventListener('click',()=>{
 })
 
 choice0.addEventListener('click',()=>{
-    ans.innerHTML = word[correctnum].jpn;
+    ans.innerHTML = `${word[correctnum].eng}${word[correctnum].jpn}`;
     if(ch0 === correctnum){
         console.log('正解');
         correctTotal++;
@@ -53,10 +53,11 @@ choice0.addEventListener('click',()=>{
         quizTotal++;
         total.innerHTML = quizTotal;
     }
+    makequiz();
 })
 
 choice1.addEventListener('click',()=>{
-    ans.innerHTML = word[correctnum].jpn;
+    ans.innerHTML = `${word[correctnum].eng}${word[correctnum].jpn}`;
     if(ch1 === correctnum){
         console.log('正解');
         correctTotal++;
@@ -68,10 +69,11 @@ choice1.addEventListener('click',()=>{
         quizTotal++;
         total.innerHTML = quizTotal;
     }
+    makequiz();
 })
 
 choice2.addEventListener('click',()=>{
-    ans.innerHTML = word[correctnum].jpn;
+    ans.innerHTML = `${word[correctnum].eng}${word[correctnum].jpn}`;
     if(ch2 === correctnum){
         console.log('正解');
         correctTotal++;
@@ -83,10 +85,11 @@ choice2.addEventListener('click',()=>{
         quizTotal++;
         total.innerHTML = quizTotal;
     }
+    makequiz();
 })
 
 choice3.addEventListener('click',()=>{
-    ans.innerHTML = word[correctnum].jpn;
+    ans.innerHTML = `${word[correctnum].eng}${word[correctnum].jpn}`;
     if(ch3 === correctnum){
         console.log('正解');
         correctTotal++;
@@ -98,6 +101,7 @@ choice3.addEventListener('click',()=>{
         quizTotal++;
         total.innerHTML = quizTotal;
     }
+    makequiz();
 })
 
 const word = [
